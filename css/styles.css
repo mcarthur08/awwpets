@@ -6,9 +6,9 @@
 
 header{
     background-image: url(/img/gallery/background.jpg);
-    height: 70vh;
+    height: 90vh;
     background-size: cover;
-    background-position: center;
+    background-position: right 35% bottom 15%;;
 }
 
 ul{
@@ -45,4 +45,76 @@ ul li.active a{
 .main{
     max-width: 1200px;
     margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-bottom: 50px;
+}
+
+.title h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+.wrap{
+    position: absolute;
+    width: 30%;
+    top: 60%;
+    left: 47%;
+    transform: translate(-50%,-50%);
+}
+
+.search{
+    width: 100%;
+    position: relative;
+}
+
+.searchterm{
+    float: left;
+    width: 100%;
+    border: 3px solid #FFBD23;
+    padding: 11px;
+    font-size: 17px;
+    outline: none;
+    transition: 1s all;
+}
+
+.search:focus{
+    color: #FFBD23;
+    border: 3px solid #fff;
+}
+
+.searchbtn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FFBD23;
+    background-color: #FFBD23;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.divider{
+    left:50%;
+    top:10%;
+    bottom:10%;
+    border-left:1px solid white;
+}
+
+.navbar-btn{
+    background-color: #FFBD23; 
+    border: none;
+    border-radius: 10%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
