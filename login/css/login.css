@@ -6,6 +6,10 @@ body{
   /* background: url(/login/bg.jpg) no-repeat; */
   background-size: cover;
 }
+.login-box p{
+  color: #000;
+}
+
 .login-box{
   width: 500px;
   position: absolute;
@@ -14,16 +18,29 @@ body{
   transform: translate(-50%,-50%);
   color: white;
 }
+
+/* .logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
 .login-box h1{
   position: center;
   font-size: 40px;
-  color:#000;
-  margin-bottom: 50px;
+  text-decoration: black;
+  margin-bottom: 30px;
   padding: 13px 0;
+  list-style: none;
 }
 
-.logo-icon{
-  float: left;
+.main-header a:link{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo {
+  /* float: left; */
   width: 150px;
   height: auto;
 }
@@ -31,16 +48,18 @@ body{
 .textbox{
   width: 100%;
   overflow: hidden;
-  font-size: 20px;
+  font-size: 17px;
   padding: 8px 0;
   margin: 8px 0;
-  border: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
+
 .textbox i{
   width: 26px;
   float: left;
   text-align: center;
 }
+
 .textbox input{
   border: none;
   outline: none;
@@ -51,12 +70,19 @@ body{
   float: left;
   margin: 0 10px;
 }
+
+.main-header{
+  text-align: center;
+}
+
 .btn{
   width: 100%;
   background-color: #ffbd23;
   color: white;
-  padding: 5px;
+  padding: 12px;
   font-size: 18px;
   cursor: pointer;
-  margin: 12px 0;
+  margin: 20px 0;
+  border-style: none;
+  border-radius: 5px;
 }
